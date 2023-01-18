@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+
+body{
+scroll-behavior: smooth;
+ /* Created with https://www.css-gradient.com */
+background: #5C5B5B;
+background: -webkit-radial-gradient(center, #5C5B5B, #1F2327);
+background: -moz-radial-gradient(center, #5C5B5B, #1F2327);
+background: radial-gradient(ellipse at center, #5C5B5B, #1F2327);
+}  
+
+.banner { animation: waveAnim 2s linear infinite alternate; }
+
+@keyframes waveAnim {
+  0% { transform: translate(0, 0) rotate(0); }
+  100% { transform: translate(2px, 2px) rotate(1deg); }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

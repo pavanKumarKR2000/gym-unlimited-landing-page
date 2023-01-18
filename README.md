@@ -1,4 +1,4 @@
-# gym-unlimited-landing-page built sing tailwind css
+## gym-unlimited-landing-page built using tailwind css
 
 ![banner](https://github.com/pavanKumarKR2000/gym-unlimited-landing-page/blob/main/gym-unlimited.png?raw=true)
 
